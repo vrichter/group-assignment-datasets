@@ -24,7 +24,7 @@ The original matlab/octave representations of the datasets can be found in `data
 You can use the original representations to genereate json files with:
 
 ```sh
-octave print_json.m
+octave generate_json.m
 ```
 
 This requires the submodule `jsonlab` to be checked out.
