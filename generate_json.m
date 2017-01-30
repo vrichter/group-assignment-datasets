@@ -97,7 +97,7 @@ function data = read_settings(path)
         load(filename);
         data.params = params;
     end
-    filename = strcat(path,'/settingsi_gc.mat');
+    filename = strcat(path,'/settings_gc.mat');
     if exist(filename, 'file') == 2
         load(filename);
         data.mdl = mdl;
